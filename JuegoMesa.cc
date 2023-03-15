@@ -20,7 +20,7 @@ string JuegoMesa::toString(){
         estadoString="Roto";
         break;
     }
-    return "Libro: "+this->nombre+", "+std::to_string(this->anioComprado)
+    return "Juego: "+this->nombre+", "+std::to_string(this->anioComprado)
             +", "+estadoString+", "+std::to_string(this->edadRecomendada)+", "+std::to_string(this->cantJugadores);
 }
 
